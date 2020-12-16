@@ -16,8 +16,13 @@ export default function Home() {
 
         <label className={styles.form}>
           <label className={styles.routes}>Routes</label>
-          <code className={styles.code}>Json-Schema-Form - /json</code><br/>
-          <code className={styles.code}>React-Hook-Form - /formHook</code>
+          <a href="http://localhost:3000/json"> 
+            <code className={styles.code}>Json-Schema-Form - /json</code>
+          </a><br/><br/>
+          <a href="http://localhost:3000/formHook">
+            <code className={styles.code}>React-Hook-Form - /formHook</code>
+          </a>
+          
 
         </label>
       </main>
