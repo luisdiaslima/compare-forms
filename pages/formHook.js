@@ -17,7 +17,7 @@ export default function App() {
 
   return (
     <>
-    <form onSubmit={handleSubmit(onSubmit)}>
+    <form>
       <label>Nome</label>
       <input
         type="text"
